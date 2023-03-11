@@ -1,0 +1,9 @@
+local MaterialService = workspace:FindFirstChild("Material Service")
+if MaterialService then
+    MaterialService:Destroy()
+end
+
+local asphaltnewww1 = game:GetService("ReplicatedStorage"):FindFirstChild("asphaltnewww1")
+if asphaltnewww1 then
+    asphaltnewww1:Destroy()
+end
